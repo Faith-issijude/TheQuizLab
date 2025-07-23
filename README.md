@@ -53,28 +53,23 @@ TheQuizLab/
 git clone https://github.com/your-username/TheQuizLab.git
 cd TheQuizLab
 
-Install dependencies
+2. **Install dependencies** 
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
-Run the app
 
-bash
-Copy
-Edit
+**3. Run the app**
+
 streamlit run main.py
 📝 Note: For PDF, CSV, and notebook file uploads, Pandoc must be installed on your system.
 
-✅ Requirements
+✅ **Requirements**
 Python 3.10+
 
 pip
 
 Pandoc (for non-DOCX files)
 
-🧠 How it Works
+🧠 **How it Works**
 The user uploads a document.
 
 The app extracts clean text and uses a pre-trained SentenceTransformer model to understand and generate quiz-style questions.
@@ -83,24 +78,12 @@ You choose difficulty level and type (MCQ or Fill-in-the-blank).
 
 The app returns a list of questions with answers, and you can download it as a Word document.
 
-🧾 License
+🧾**License**
 MIT License. Feel free to modify and use for educational or personal projects.
 
-🙌 Contributing
+🙌 **Contributing**
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-👨‍💻 Author
+👨‍💻 **Author**
 Faithfulness Issijude
 🔗 LinkedIn • 🐦 Twitter • 💻 GitHub
-
-yaml
-Copy
-Edit
-
----
-
-Let me know:
-- If you want to replace the **placeholder screenshot link** with a real image.
-- If your GitHub username is different so I can update the repo link.
-- If you want to include optional deployment steps (e.g., using Streamlit Cl
-
