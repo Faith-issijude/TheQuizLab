@@ -49,7 +49,6 @@ TheQuizLab/
 
 1. **Clone this repository**
 
-```bash
 git clone https://github.com/your-username/TheQuizLab.git
 cd TheQuizLab
 
