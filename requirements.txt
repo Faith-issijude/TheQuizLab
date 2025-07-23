@@ -1,0 +1,10 @@
+streamlit 
+nltk 
+python-docx
+together
+python-dotenv
+faiss-cpu
+sentence-transformers
+pypandoc
+pdfminer.six
+tf-keras
