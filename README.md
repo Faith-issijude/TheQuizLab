@@ -37,11 +37,17 @@
 
 TheQuizLab/
 │
+
 ├── main.py # Main Streamlit app
+
 ├── quiz_engine.py # Handles question generation logic
+
 ├── doc_processor.py # Handles file reading & conversion
+
 ├── requirements.txt
+
 └── README.md
+
 
 ---
 
@@ -61,20 +67,12 @@ pip install -r requirements.txt
 streamlit run main.py
 📝 Note: For PDF, CSV, and notebook file uploads, Pandoc must be installed on your system.
 
-✅ **Requirements**
-Python 3.10+
+---
+## 🧠 **How it Works**
 
-pip
-
-Pandoc (for non-DOCX files)
-
-🧠 **How it Works**
 The user uploads a document.
-
 The app extracts clean text and uses a pre-trained SentenceTransformer model to understand and generate quiz-style questions.
-
 You choose difficulty level and type (MCQ or Fill-in-the-blank).
-
 The app returns a list of questions with answers, and you can download it as a Word document.
 
 🧾**License**
@@ -84,5 +82,4 @@ MIT License. Feel free to modify and use for educational or personal projects.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 👨‍💻 **Author**
-Faithfulness Issijude
-🔗 LinkedIn • 🐦 Twitter • 💻 GitHub
+Faithfulness Issijude and Toochi Uduma 
